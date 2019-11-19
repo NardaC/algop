@@ -294,7 +294,22 @@ footer{
     font-size: 1.5rem;
     text-decoration: underline !important;
 }
+.ir-a{
+    text-decoration: underline !important
+}
+.info-saber .info-saber-title{
+    font-size: 1.3rem;
+    font-weight: bold
 
+}
+@media (max-width: 1200px){
+    
+    
+   .se-cambio{
+    position: relative;
+    top: 5rem;
+   }
+}
 @media (max-width: 767px) {
 	html{
 		font-size: 4.6vw;
@@ -470,7 +485,7 @@ footer{
         height: 8rem;
     }
     .mt-9-saber{
-        margin-top: 5rem
+        margin-top: 2rem
     }
     .title-saber{
         color: #fff;
@@ -479,10 +494,13 @@ footer{
     .info-saber{
         position: inherit;
         padding-left: 0;
+        padding-right: 2rem;
         top: 0px;
     }
     .info-saber .info-saber-title{
-        font-size: 1rem
+        font-size: .8rem;
+        font-weight: bold
+
     }
     .info-saber ul{
         font-size: .7rem
@@ -521,5 +539,9 @@ footer{
     }
     .top-10-mobile{
         margin-top: 9rem !important
+    }
+    .btn-blanco-mobile{
+        position: relative;
+        top: 7rem;
     }
 }
