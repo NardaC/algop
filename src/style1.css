@@ -21,13 +21,13 @@
     width: 80%;
 }
 
-.boton-blanco {
-    border: 2px solid;
-}
-
 .boton-azul {
     background: #1282BE;
     color: white;
+}
+
+.boton-blanco {
+    border: 2px solid;
 }
 
 .home {
