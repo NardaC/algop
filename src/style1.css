@@ -37,8 +37,8 @@
 }
 
 .container-info {
-    padding: 4rem;
-    padding-top: 8rem;
+    padding: 3rem;
+    padding-top: 9rem;
 }
 
 .space-around {
@@ -57,11 +57,11 @@
     color: white;
 }
 
-.body-preg p {
+/* .body-preg p {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
-}
+} */
 
 .body-preg {
     display: none;
@@ -92,9 +92,11 @@ h2 {
     font-size: 1.3rem;
     font-family: 'HelveticaNeue-Bold';
 }
-
-.body-preg p {
-    font-size: 1.5rem;
+.body-preg ul{
+    padding-left: 0%
+}
+.body-preg p, .body-preg ul {
+    font-size: 0.9rem;
     text-align: justify;
     font-family: 'HelveticaNeue-Thin';
 }
@@ -113,20 +115,24 @@ h2 {
 
 .head-preg h2 {
     font-family: 'HelveticaNeue-Bold';
-    font-size: 2rem
+    font-size: 1rem
 }
 
 .p_5 {
     padding: .5rem;
 }
-.each-preg{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.pt-5-xs{
+    padding-top: 1rem !important
 }
 
 @media (min-width: 767px) {
-    h2 {
-        font-size: 1rem;
+    
+    .container-info {
+        padding: 4rem;
+        padding-top: 15rem 
+    }
+    .head-preg h2{
+        font-size: 2rem;
     }
     
     .container-preg {
@@ -142,6 +148,9 @@ h2 {
         justify-content: center;
         flex-direction: column;
         width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
     }
     .cont {
         display: flex;
@@ -150,7 +159,7 @@ h2 {
         width: 100%;
     }
     .body-preg p {
-        font-size: 1.2rem;
+        font-size: 1rem !important;
         text-align: left;
         padding-left: 4rem;
     }
