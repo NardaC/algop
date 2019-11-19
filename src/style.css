@@ -282,6 +282,7 @@ header .menu{
 footer{
     background-color: #6C00A7;
     height: 20rem;
+    padding: 2rem;
 }
 .footer-p{
     font-family: "HelveticaNeue-Italic";
@@ -325,6 +326,27 @@ footer{
     position: relative;
     top: 4rem;
    }
+}
+@media (max-width: 991px){
+
+    .menu nav div ul a{
+        color:#383838;
+        font-size: 1.8rem;
+    }
+    .navbar-collapse{
+        width: 8rem;
+        height: 18rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #fff;
+        text-align: right !important;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+    }
+    .end{
+        justify-content: flex-end;
+    }
 }
 @media (max-width: 767px) {
 	html{
@@ -383,7 +405,7 @@ footer{
         margin-bottom: 1rem;
     }
     .logo{
-        width: 13rem
+        width: 12rem
     } 
     .my-container{
         width: 100%
@@ -543,8 +565,16 @@ footer{
     }
   
     footer{
-        height: 9rem;
+        height: 12rem;
+        padding: 0;
     }
+    .footer-p{
+        font-size: 0.5rem
+    }
+    .contactanos{
+        font-size: .8rem
+    }
+
     .pl-5-xs{
         padding-left: 1rem !important;
     }
@@ -563,5 +593,11 @@ footer{
     .btn-blanco-mobile{
         position: relative;
         top: 7rem;
+    }
+    .mb-4-xs{
+        margin-bottom: 1rem !important
+    }
+    .pt-4-xs{
+        padding-top: 1rem !important
     }
 }
