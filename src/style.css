@@ -170,7 +170,7 @@ header .menu{
     width: 60%;
     position: relative;
     left: 23%;
-    top: 0;
+    top: 2rem;
 }
 .container-info2{
     padding: 9rem;
@@ -277,7 +277,7 @@ header .menu{
     border-radius: .4rem;
 }
 .pl-16{
-    padding-left: 16rem
+    padding-left: 5rem
 }
 footer{
     background-color: #6C00A7;
@@ -286,14 +286,30 @@ footer{
 .footer-p{
     font-family: "HelveticaNeue-Italic";
     color: #fff !important;
-    font-size: 1.4rem
+    font-size: 1rem
 }
 .contactanos{
     font-family: "HelveticaNeue-Italic";
     color: #fff !important;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    text-decoration: underline !important;
 }
+.ir-a{
+    text-decoration: underline !important
+}
+.info-saber .info-saber-title{
+    font-size: 1.3rem;
+    font-weight: bold
 
+}
+@media (max-width: 1200px){
+    
+    
+   .se-cambio{
+    position: relative;
+    top: 5rem;
+   }
+}
 @media (max-width: 767px) {
 	html{
 		font-size: 4.6vw;
@@ -413,7 +429,7 @@ footer{
         font-size: 1rem
     }
     .carousel-indicators{
-        top: 14rem
+        top: 16rem
     }
     .carousel-indicators li{
         background-color: #1995d5 !important;
@@ -469,7 +485,7 @@ footer{
         height: 8rem;
     }
     .mt-9-saber{
-        margin-top: 5rem
+        margin-top: 2rem
     }
     .title-saber{
         color: #fff;
@@ -478,10 +494,13 @@ footer{
     .info-saber{
         position: inherit;
         padding-left: 0;
+        padding-right: 2rem;
         top: 0px;
     }
     .info-saber .info-saber-title{
-        font-size: 1rem
+        font-size: .8rem;
+        font-weight: bold
+
     }
     .info-saber ul{
         font-size: .7rem
@@ -500,8 +519,9 @@ footer{
     }
     .columna-50-xs{
         width: 50%;
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
+  
     footer{
         height: 9rem;
     }
@@ -511,8 +531,17 @@ footer{
     .pr-5-xs{
         padding-right: 1rem !important
     }
-    .footer-p{
-        font-family: "HelveticaNeue-Italic";
-        color: #fff !important
+    .w80-xs{
+        width: 80%
+    }
+    .text-afiliate{
+        margin-top: 5rem !important
+    }
+    .top-10-mobile{
+        margin-top: 9rem !important
+    }
+    .btn-blanco-mobile{
+        position: relative;
+        top: 7rem;
     }
 }
