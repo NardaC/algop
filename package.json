@@ -1,0 +1,19 @@
+{
+  "name": "paypal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NardaC/paypal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NardaC/paypal/issues"
+  },
+  "homepage": "https://github.com/NardaC/paypal#readme"
+}
