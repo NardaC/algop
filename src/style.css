@@ -276,14 +276,48 @@ header .menu{
     width: 20rem;
     border-radius: .4rem;
 }
+.pl-16{
+    padding-left: 16rem
+}
 footer{
     background-color: #6C00A7;
-    height: 12rem;
+    height: 20rem;
+}
+.footer-p{
+    font-family: "HelveticaNeue-Italic";
+    color: #fff !important;
+    font-size: 1.4rem
+}
+.contactanos{
+    font-family: "HelveticaNeue-Italic";
+    color: #fff !important;
+    font-size: 1.5rem
 }
 
 @media (max-width: 767px) {
 	html{
 		font-size: 4.6vw;
+    }
+    .menu nav div ul a{
+        color:#383838;
+        font-size: 1rem;
+    }
+    .navbar-collapse{
+        width: 8rem;
+        height: 14rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #fff;
+        text-align: right !important;
+        position: relative;
+        top: 0rem;
+        right: -2rem;
+    }
+    .end{
+        justify-content: flex-end;
+    }
+    .pl-16{
+        padding-left: 0 !important
     }
     .ocultar-mobile{
         display: none
@@ -457,7 +491,7 @@ footer{
         padding: .1rem
     }
     .w-50-xs{
-        width: 100%;
+        width: 9rem;
     }
    
     .container-info-centerY h2{
@@ -465,9 +499,20 @@ footer{
         color: #fff
     }
     .columna-50-xs{
-        width: 50%
+        width: 50%;
+        padding-top: 3rem;
     }
     footer{
         height: 9rem;
+    }
+    .pl-5-xs{
+        padding-left: 1rem !important;
+    }
+    .pr-5-xs{
+        padding-right: 1rem !important
+    }
+    .footer-p{
+        font-family: "HelveticaNeue-Italic";
+        color: #fff !important
     }
 }
