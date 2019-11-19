@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: local('../fonts/HelveticaNeue-Bold.otf'), url('../fonts/HelveticaNeue-Bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Thin';
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Italic';
+    src: local('../fonts/HelveticaNeue-Italic.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('woff');
+}
+
 .flex {
     display: flex;
 }
@@ -16,9 +31,9 @@
 }
 
 .home {
-    background-image: url(./assets/fondo-mobile.png);
-    background-position-y: -13rem;
-    height: 12rem;
+    background-image: url(./assets/cortado.png);
+    background-position-y: 0rem;
+    height: 15rem;
 }
 
 .container-info {
@@ -39,6 +54,7 @@
     height: 2rem;
     width: 2rem;
     border-radius: 2pc;
+    color: white;
 }
 
 .body-preg p {
@@ -73,11 +89,12 @@ p {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .body-preg p {
     font-size: 1rem;
+    text-align: justify;
 }
 
 .vw100 {
@@ -90,6 +107,14 @@ h2 {
 
 .fila {
     justify-content: center;
+}
+
+.head-preg h2 {
+    font-display: 'HelveticaNeue-Bold';
+}
+
+.p_5 {
+    padding: .5rem;
 }
 
 @media (min-width: 767px) {
@@ -120,5 +145,8 @@ h2 {
     }
     .displayNone {
         display: none;
+    }
+    .home {
+        height: 22rem;
     }
 }
