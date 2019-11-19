@@ -159,7 +159,7 @@ header .menu{
     border: none
 }
 .fondo{
-    background-image: url('./assets/fondo-web-2.png');
+    background-image: url('./assets/fondo-largo-web.png');
     background-size: cover;
     background-position-x: center;
     height: 100%;
@@ -232,7 +232,7 @@ header .menu{
     font-size: 7rem;
     color:#1984C1;
     position: relative;
-    top: -2rem;
+    top: -1.5rem;
 }
 .mb-9{
     margin-bottom: 9rem
