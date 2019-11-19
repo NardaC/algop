@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: local('../fonts/HelveticaNeue-Bold.otf'), url('../fonts/HelveticaNeue-Bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Thin';
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Italic';
+    src: local('../fonts/HelveticaNeue-Italic.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('woff');
+}
+
+.flex {
+    display: flex;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.boton-blanco {
+    border: 2px solid;
+}
+
+.boton-azul {
+    background: #1282BE;
+    color: white;
+}
+
+.home {
+    background-image: url(./assets/cortado.png);
+    background-position-y: 0rem;
+    height: 15rem;
+}
+
+.container-info {
+    padding: 4rem;
+    padding-top: 6rem;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.boton {
+    width: 40%;
+}
+
+.plusOrMin {
+    background: #1282BE;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2pc;
+    color: white;
+}
+
+.body-preg p {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-preg {
+    display: none;
+}
+
+.blockPreg {
+    display: block;
+}
+
+.listnone {
+    list-style-type: none;
+}
+
+.container-preg {
+    width: 100%;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.body-preg p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.vw100 {
+    width: 100%
+}
+
+.fondo {
+    background: white;
+}
+
+.fila {
+    justify-content: center;
+}
+
+.head-preg h2 {
+    font-display: 'HelveticaNeue-Bold';
+}
+
+.p_5 {
+    padding: .5rem;
+}
+
+@media (min-width: 767px) {
+    .container-preg {
+        width: 80%;
+    }
+    .fondo {
+        background-image: url(./assets/fondo3-web.png);
+        background-size: cover;
+        height: auto;
+    }
+    .each-preg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .body-preg p {
+        font-size: 1rem;
+        text-align: left;
+        padding-left: 4rem;
+    }
+    .displayNone {
+        display: none;
+    }
+    .home {
+        height: 22rem;
+    }
+}
