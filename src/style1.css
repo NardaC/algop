@@ -1,0 +1,68 @@
+*,
+.p {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.boton-blanco {
+    border: 2px solid;
+}
+
+.boton-azul {
+    background: #1282BE;
+    color: white;
+}
+
+.home {
+    background-image: url(./assets/fondo-mobile.png);
+    background-position-y: -13rem;
+    height: 12rem;
+}
+
+.container-info {
+    padding: 4rem;
+    padding-top: 6rem;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.boton {
+    width: 40%;
+}
+
+.plusOrMin {
+    background: #1282BE;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2pc;
+}
+
+.body-preg {
+    display: none;
+}
+
+.blockPreg {
+    display: block;
+}
+
+.listnone {
+    list-style-type: none;
+}
+
+.container-preg {
+    width: 100%;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}
