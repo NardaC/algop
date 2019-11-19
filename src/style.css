@@ -281,7 +281,17 @@ header .menu{
 }
 footer{
     background-color: #6C00A7;
-    height: 12rem;
+    height: 20rem;
+}
+.footer-p{
+    font-family: "HelveticaNeue-Italic";
+    color: #fff !important;
+    font-size: 1.4rem
+}
+.contactanos{
+    font-family: "HelveticaNeue-Italic";
+    color: #fff !important;
+    font-size: 1.5rem
 }
 
 @media (max-width: 767px) {
@@ -500,5 +510,9 @@ footer{
     }
     .pr-5-xs{
         padding-right: 1rem !important
+    }
+    .footer-p{
+        font-family: "HelveticaNeue-Italic";
+        color: #fff !important
     }
 }
