@@ -1,10 +1,9 @@
-*,
-.p {
-    text-align: center;
-}
-
 .flex {
     display: flex;
+}
+
+.w80 {
+    width: 80%;
 }
 
 .boton-blanco {
@@ -42,6 +41,12 @@
     border-radius: 2pc;
 }
 
+.body-preg p {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .body-preg {
     display: none;
 }
@@ -65,4 +70,55 @@ p {
 
 .displayNone {
     display: none;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.body-preg p {
+    font-size: 1rem;
+}
+
+.vw100 {
+    width: 100%
+}
+
+.fondo {
+    background: white;
+}
+
+.fila {
+    justify-content: center;
+}
+
+@media (min-width: 767px) {
+    .container-preg {
+        width: 80%;
+    }
+    .fondo {
+        background-image: url(./assets/fondo3-web.png);
+        background-size: cover;
+        height: auto;
+    }
+    .each-preg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .body-preg p {
+        font-size: 1rem;
+        text-align: left;
+        padding-left: 4rem;
+    }
+    .displayNone {
+        display: none;
+    }
 }
