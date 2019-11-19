@@ -363,7 +363,7 @@ footer{
         height: 55rem;
     }
     .fondo{
-        background-image: url('./assets/fondo-large-mobile.svg');
+        background-image: url('./assets/fondo-largo-mobile.png');
         background-size: 100%;
         background-position-y: -3%;
         /* height: 735vh;  */
