@@ -356,7 +356,9 @@ footer {
 .w-5{
     width: 5rem
 }
-
+.p-foo{
+    padding-left: 12rem
+}
 @media (max-width: 1200px) {
     .my-container .container-cel img {
         width: 50%
@@ -413,6 +415,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+    .p-foo{
+        padding-left: 0
+    }
     .w-4{
         width: 1.5rem
     }
