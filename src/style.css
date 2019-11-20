@@ -108,6 +108,10 @@ html {
     color: white !important
 }
 
+.text-dec-none {
+    text-decoration: none !important;
+}
+
 header .menu {
     position: absolute;
     z-index: 10000;
@@ -276,7 +280,7 @@ header .menu {
     font-size: 7rem;
     color: #1984C1;
     position: relative;
-    top: -1.5rem;
+    top: -2.5rem;
 }
 
 .mb-9 {
@@ -338,8 +342,8 @@ header .menu {
 
 footer {
     background-color: #6C00A7;
-    height: 20rem;
-    padding: 2rem;
+    height: 17rem;
+    padding: 1.5rem;
 }
 
 .footer-p {
@@ -384,6 +388,39 @@ footer {
     padding-left: 12rem
 }
 
+ul {
+    margin: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: 5px;
+}
+
+ul.dashed>li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+.w-3 {
+    width: 3rem
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.text-right-foo {
+    text-align: right;
+}
+
+.pt05m {
+    padding-top: 1.5rem
+}
+
 @media (max-width: 1200px) {
     .my-container .container-cel img {
         width: 50%
@@ -418,10 +455,9 @@ footer {
     .p-foo {
         padding-left: 12rem
     }
-    .w-30rem{
+    .w-30rem {
         width: 32rem
     }
-    
 }
 
 @media (max-width: 991px) {
@@ -448,13 +484,15 @@ footer {
     .img-red {
         width: 60%
     }
-    .w-30rem{
+    .w-30rem {
         width: 30rem
     }
-    
 }
 
 @media (max-width: 767px) {
+    .space-between {
+        justify-content: center;
+    }
     .p-foo {
         padding-left: 0 !important;
     }
@@ -462,6 +500,9 @@ footer {
         width: 1.3rem
     }
     .w-5 {
+        width: 1.5rem
+    }
+    .w-3 {
         width: 1.5rem
     }
     html {
@@ -677,9 +718,15 @@ footer {
         font-size: .9rem;
         color: #fff
     }
+    .pt05m {
+        padding-top: 0.5rem!important;
+    }
     .columna-50-xs {
         width: 50%;
         padding-top: 2rem;
+    }
+    .w46 {
+        width: 46%;
     }
     footer {
         height: 14rem;
