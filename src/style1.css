@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'HelveticaNeue-Thin';
-    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('woff');
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format("opentype");
 }
 
 @font-face {
@@ -105,7 +105,6 @@
     display: block;
 }
 
-
 .displayNone {
     display: none;
 }
@@ -129,6 +128,7 @@ h2 {
 }
 
 .fondo {
+    height: auto;
     background: white;
     height: auto;
 }
@@ -156,14 +156,13 @@ h2 {
 }
 
 @media (min-width: 767px) {
-    
-    .p-foo{
+    .p-foo {
         text-align: left !important;
-
     }
-    .boton-blanco, .boton-azul{
-    font-size: 1.3rem;
-    padding: 1.2rem;
+    .boton-blanco,
+    .boton-azul {
+        font-size: 1.3rem;
+        padding: 1.2rem;
     }
     .plusOrMin {
         height: 2rem;
