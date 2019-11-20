@@ -176,7 +176,6 @@ h2 {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-   
     .body-preg p {
         font-size: 1rem !important;
         text-align: left;
@@ -187,5 +186,8 @@ h2 {
     }
     .home {
         height: 22rem;
+    }
+    .body-preg ul {
+        padding-left: 4rem
     }
 }
