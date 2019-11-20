@@ -350,6 +350,12 @@ footer {
 .img-red {
     width: 60%
 }
+.w-4{
+    width: 4rem
+}
+.w-5{
+    width: 5rem
+}
 
 @media (max-width: 1200px) {
     .my-container .container-cel img {
@@ -407,6 +413,12 @@ footer {
 }
 
 @media (max-width: 767px) {
+    .w-4{
+        width: 1.5rem
+    }
+    .w-5{
+        width: 1.5rem
+    }
     html {
         font-size: 4.6vw;
     }
@@ -620,7 +632,7 @@ footer {
         padding-top: 2rem;
     }
     footer {
-        height: 12rem;
+        height: 14rem;
         padding: 0;
     }
     .footer-p {

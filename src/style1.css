@@ -152,6 +152,10 @@ h2 {
 }
 
 @media (min-width: 767px) {
+    .boton-blanco, .boton-azul{
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    }
     .plusOrMin {
         height: 2rem;
         width: 2rem;
