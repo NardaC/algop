@@ -419,7 +419,8 @@ footer {
 
 @media (max-width: 767px) {
     .p-foo{
-        padding-left: 0 !important
+        padding-left: 0 !important;
+
     }
     .w-4{
         width: 1.3rem

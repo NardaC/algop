@@ -104,9 +104,6 @@
     display: block;
 }
 
-p {
-    text-align: center;
-}
 
 .displayNone {
     display: none;
@@ -132,6 +129,7 @@ h2 {
 
 .fondo {
     background: white;
+    height: auto;
 }
 
 .fila {
@@ -157,6 +155,10 @@ h2 {
 }
 
 @media (min-width: 767px) {
+    .p-foo{
+        text-align: left !important;
+
+    }
     .boton-blanco, .boton-azul{
     font-size: 1.3rem;
     padding: 1.2rem;
