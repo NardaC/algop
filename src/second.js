@@ -46,20 +46,22 @@ const elem2 = document.getElementById("ligoPlusContainer");
 const btn1 = document.getElementById("ligo");
 const btn2 = document.getElementById("ligopaypal");
 
-btn1.classList.add("boton-azul");
-btn2.classList.add("boton-blanco");
+btn2.classList.add("boton-azul");
+btn1.classList.add("boton-blanco");
+
+
 document.getElementById("ligo").addEventListener("click", () => {
-    btn2.classList.add("boton-blanco");
-    btn1.classList.add("boton-azul");
-    btn2.classList.remove("boton-azul");
+    btn1.classList.add("boton-blanco");
+    btn2.classList.add("boton-azul");
+    btn1.classList.remove("boton-azul");
     elem.classList.remove("displayNone");
     elem2.classList.add("displayNone");
     elem.classList.add("container-preg");
 });
 document.getElementById("ligopaypal").addEventListener("click", () => {
-    btn2.classList.add("boton-azul");
-    btn1.classList.add("boton-blanco");
-    btn1.classList.remove("boton-azul");
+    btn1.classList.add("boton-azul");
+    btn2.classList.add("boton-blanco");
+    btn2.classList.remove("boton-azul");
     elem.classList.remove("container-preg");
     elem2.classList.remove("displayNone");
     elem.classList.add("displayNone");
@@ -69,7 +71,7 @@ document.getElementById("ligopaypal").addEventListener("click", () => {
 
 
 
-document.getElementById("preg1b").addEventListener("click", () => { hideOrShow("cont-preg1", "sig1b") });
+document.getElementById("preg1b").addEventListener("click", () => { hideOrShow("cont-preg1b", "sig1b") });
 
 document.getElementById("preg2b").addEventListener("click", () => { hideOrShow("cont-preg2b", "sig2b") });
 document.getElementById("preg3b").addEventListener("click", () => { hideOrShow("cont-preg3b", "sig3b") });
