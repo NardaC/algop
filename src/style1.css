@@ -38,7 +38,7 @@
 
 .container-info {
     padding: 1rem;
-    padding-top: 10rem;
+    padding-top: 9rem;
     text-align: center;
 }
 
@@ -79,7 +79,7 @@
     flex-direction: column;
 }
 
-.body-preg {
+*/ .body-preg {
     display: none;
 }
 
@@ -108,8 +108,13 @@ h2 {
     font-size: 1.3rem;
 }
 
-.body-preg p {
-    font-size: 1rem;
+.body-preg ul {
+    padding-left: 0%
+}
+
+.body-preg p,
+.body-preg ul {
+    font-size: 0.9rem;
     text-align: justify;
 }
 
@@ -126,27 +131,42 @@ h2 {
 }
 
 .head-preg h2 {
-    font-display: 'HelveticaNeue-Bold';
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 1rem
 }
 
 .p_5 {
     padding: .5rem;
 }
 
+.pt-5-xs {
+    padding-top: 1rem !important
+}
+
 @media (min-width: 767px) {
+    .container-info {
+        padding: 4rem;
+        padding-top: 15rem
+    }
+    .head-preg h2 {
+        font-size: 2rem;
+    }
     .container-preg {
         width: 80%;
     }
     .fondo {
-        background-image: url(./assets/fondo3-web.png);
-        background-size: cover;
+        background-image: url(./assets/fondo3-otro.svg);
+        background-size: 100%;
         height: auto;
+        background-repeat: no-repeat
     }
     .each-preg {
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .fondo {
         background-image: url(./assets/fondo3-web.png);
@@ -154,7 +174,7 @@ h2 {
         height: auto;
     }
     .body-preg p {
-        font-size: 1rem;
+        font-size: 1rem !important;
         text-align: left;
         padding-left: 4rem;
     }
