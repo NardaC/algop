@@ -159,7 +159,7 @@ h2 {
 @media (min-width: 767px) {
     .boton-blanco, .boton-azul{
     font-size: 1.3rem;
-    padding: 1.3rem;
+    padding: 1.2rem;
     }
     .plusOrMin {
         height: 2rem;
@@ -186,7 +186,7 @@ h2 {
         padding-top: 15rem
     }
     .head-preg h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 94%;
     }
     .container-preg {
