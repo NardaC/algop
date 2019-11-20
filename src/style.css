@@ -129,10 +129,38 @@ header .menu {
 }
 
 .home {
-    background-image: url('./assets/fondo-home.png');
+    background-image: url('assets/pantalla_1.png');
     background-size: cover;
     background-position-x: center;
     height: 60rem;
+    background-repeat: no-repeat
+}
+.fondo1 {
+    background-image: url('assets/contorno_fondo_01.png');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    background-repeat: no-repeat
+}
+.fondo2 {
+    background-image: url('assets/contorno_fondo_02.png');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    background-repeat: no-repeat
+}
+.fondo3 {
+    background-image: url('assets/contorno_fondo_03.png');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    background-repeat: no-repeat
+}
+.fondo4 {
+    background-image: url('assets/contorno_fondo_05.png');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
     background-repeat: no-repeat
 }
 
@@ -427,7 +455,7 @@ ul.dashed>li:before {
         width: 50%
     }
     .img-17 {
-        width: 17rem;
+        width: 14rem;
     }
     .cuadro-rigth {
         width: 32rem;
