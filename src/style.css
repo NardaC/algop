@@ -277,7 +277,7 @@ header .menu{
     border-radius: .4rem;
 }
 .pl-16{
-    padding-left: 5rem
+    padding-left: 24rem
 }
 footer{
     background-color: #6C00A7;
@@ -305,6 +305,9 @@ footer{
 }
 .bajar-unete{
     padding-top: 5rem;
+}
+.img-red{
+    width: 60%
 }
 @media (max-width: 1200px){
     .my-container .container-cel img{
@@ -346,6 +349,9 @@ footer{
     }
     .end{
         justify-content: flex-end;
+    }
+    .img-red{
+        width: 60%
     }
 }
 @media (max-width: 767px) {
