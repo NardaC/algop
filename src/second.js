@@ -1,8 +1,12 @@
+// const algo = document.querySelectorAll("div.plusOrMin");
+// algo.forEach(function(userItem) {
+//     userItem.innerHTML = `     <i class="fas fa-plus p_5"></i>`;
+// });
+
 const algo = document.querySelectorAll("div.plusOrMin");
 algo.forEach(function(userItem) {
-    userItem.innerHTML = `     <i class="fas fa-plus p_5"></i>`;
+    userItem.classList.add("onlyPlus");
 });
-
 
 
 
@@ -10,8 +14,8 @@ const hideOrShow = (iddepregunt, idplus) => {
     const element = document.getElementById(iddepregunt);
     element.classList.toggle("blockPreg");
     const plusornot = document.getElementById(idplus);
-    plusornot.innerHTML = "";
-    plusornot.innerHTML = `<i class="fas fa-minus p_5"></i>`;
+    plusornot.classList.toggle("onlyPlus");
+    plusornot.classList.toggle("onlyMinus");
 }
 
 
