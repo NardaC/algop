@@ -166,6 +166,12 @@ h2 {
     padding-top: 1rem !important
 }
 
+a:hover,
+a {
+    color: #0056b300;
+    text-decoration: none;
+}
+
 @media (min-width: 767px) {
     .p-foo {
         text-align: left !important;
