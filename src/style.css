@@ -668,6 +668,7 @@ ul.dashed>li:before {
     .numero1,
     .numero2 {
         font-size: 4rem;
+        top: -1.5rem;
     }
     .img-up-2 {
         margin-top: -15rem
@@ -711,8 +712,8 @@ ul.dashed>li:before {
         padding: .1rem;
     }
     .w-50-xs {
-        width: 7rem;
-        padding-top: 3rem;
+        width: 10rem;
+        padding-top: 1rem;
     }
     .container-info-centerY h2 {
         font-size: .9rem;
