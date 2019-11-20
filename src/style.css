@@ -388,6 +388,9 @@ footer {
     .img-red {
         width: 60%
     }
+    .p-foo{
+        padding-left: 12rem
+    }
 }
 
 @media (max-width: 991px) {
@@ -416,10 +419,11 @@ footer {
 
 @media (max-width: 767px) {
     .p-foo{
-        padding-left: 0
+        padding-left: 0 !important;
+
     }
     .w-4{
-        width: 1.5rem
+        width: 1.3rem
     }
     .w-5{
         width: 1.5rem
