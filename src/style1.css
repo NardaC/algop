@@ -85,6 +85,7 @@
     font-size: 1rem;
     display: flex;
     flex-direction: column;
+    font-family: 'HelveticaNeue-Thin';
 }
 
 .body-preg {
@@ -209,9 +210,10 @@ h2 {
         padding-bottom: 1rem;
     }
     .body-preg p {
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
         text-align: left;
         padding-left: 4rem;
+        font-family: 'HelveticaNeue-Thin';
     }
     .displayNone {
         display: none;
