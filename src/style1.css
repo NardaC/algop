@@ -139,9 +139,10 @@ h2 {
         width: 80%;
     }
     .fondo {
-        background-image: url(./assets/fondo3-web.png);
-        background-size: cover;
+        background-image: url(./assets/fondo3-otro.svg);
+        background-size: 100%;
         height: auto;
+        background-repeat: no-repeat
     }
     .each-preg {
         display: flex;
