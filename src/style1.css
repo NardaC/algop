@@ -176,11 +176,7 @@ h2 {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    .fondo {
-        background-image: url(./assets/fondo3-web.png);
-        background-size: cover;
-        height: auto;
-    }
+   
     .body-preg p {
         font-size: 1rem !important;
         text-align: left;
