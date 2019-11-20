@@ -370,6 +370,7 @@ footer {
 
 .bajar-unete {
     padding-top: 5rem;
+    width: 63%;
 }
 
 .img-red {
@@ -490,6 +491,9 @@ ul.dashed>li:before {
 }
 
 @media (max-width: 767px) {
+    .bajar-unete {
+        width: 100%;
+    }
     .space-between {
         justify-content: center;
     }
