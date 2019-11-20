@@ -330,6 +330,32 @@ footer{
     top: 4rem;
    }
 }
+@media (max-width: 1024px){
+    
+}
+
+    .menu nav div ul a{
+        color:#383838;
+        font-size: 1.8rem;
+    }
+    .navbar-collapse{
+        width: 8rem;
+        height: 18rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #fff;
+        text-align: right !important;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+    }
+    .end{
+        justify-content: flex-end;
+    }
+    .img-red{
+        width: 60%
+    }
+}
 @media (max-width: 991px){
 
     .menu nav div ul a{
