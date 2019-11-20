@@ -21,9 +21,17 @@
     width: 80%;
 }
 
+.boton-blanco {
+    border: 2px solid;
+    font-size: .7rem;
+    padding: .7rem;
+}
+
 .boton-azul {
     background: #1282BE;
     color: white;
+    font-size: .7rem;
+    padding: .7rem;
 }
 
 .boton-blanco {
