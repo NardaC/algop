@@ -34,6 +34,10 @@
     padding: .7rem;
 }
 
+.boton-blanco {
+    border: 2px solid;
+}
+
 .home {
     background-image: url(./assets/cortado.png);
     background-position-y: 0rem;
@@ -41,8 +45,9 @@
 }
 
 .container-info {
-    padding: 3rem;
+    padding: 1rem;
     padding-top: 9rem;
+    text-align: center;
 }
 
 .space-around {
@@ -54,18 +59,33 @@
 }
 
 .plusOrMin {
-    background: #1282BE;
     height: 2rem;
     width: 2rem;
     border-radius: 2pc;
     color: white;
 }
 
-/* .body-preg p {
+.onlyPlus {
+    background: #1282BE url(./assets/plus-black-symbol.png);
+    background-position-x: 0.4rem;
+    background-position-y: 0.4rem;
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+}
+
+.onlyMinus {
+    background: #1282BE url(./assets/minus-symbol.png);
+    background-position-x: 0.4rem;
+    background-position-y: 0.4rem;
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+}
+
+.body-preg p {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
-} */
+}
 
 .body-preg {
     display: none;
@@ -94,15 +114,16 @@ p {
 
 h2 {
     font-size: 1.3rem;
-    font-family: 'HelveticaNeue-Bold';
 }
-.body-preg ul{
+
+.body-preg ul {
     padding-left: 0%
 }
-.body-preg p, .body-preg ul {
+
+.body-preg p,
+.body-preg ul {
     font-size: 0.9rem;
     text-align: justify;
-    font-family: 'HelveticaNeue-Thin';
 }
 
 .vw100 {
@@ -125,20 +146,19 @@ h2 {
 .p_5 {
     padding: .5rem;
 }
-.pt-5-xs{
+
+.pt-5-xs {
     padding-top: 1rem !important
 }
 
 @media (min-width: 767px) {
-    
     .container-info {
         padding: 4rem;
-        padding-top: 15rem 
+        padding-top: 15rem
     }
-    .head-preg h2{
+    .head-preg h2 {
         font-size: 2rem;
     }
-    
     .container-preg {
         width: 80%;
     }
@@ -155,13 +175,11 @@ h2 {
         width: 80%;
         padding-top: 1rem;
         padding-bottom: 1rem;
-
     }
-    .cont {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .fondo {
+        background-image: url(./assets/fondo3-web.png);
+        background-size: cover;
+        height: auto;
     }
     .body-preg p {
         font-size: 1rem !important;
@@ -173,8 +191,5 @@ h2 {
     }
     .home {
         height: 22rem;
-    }
-    .pt-5-xs{
-        padding-top: 1rem !important
     }
 }

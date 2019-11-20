@@ -1,8 +1,12 @@
+// const algo = document.querySelectorAll("div.plusOrMin");
+// algo.forEach(function(userItem) {
+//     userItem.innerHTML = `     <i class="fas fa-plus p_5"></i>`;
+// });
+
 const algo = document.querySelectorAll("div.plusOrMin");
 algo.forEach(function(userItem) {
-    userItem.innerHTML = `     <i class="fas fa-plus p_5"></i>`;
+    userItem.classList.add("onlyPlus");
 });
-
 
 
 
@@ -10,8 +14,8 @@ const hideOrShow = (iddepregunt, idplus) => {
     const element = document.getElementById(iddepregunt);
     element.classList.toggle("blockPreg");
     const plusornot = document.getElementById(idplus);
-    plusornot.innerHTML = "";
-    plusornot.innerHTML = `<i class="fas fa-minus p_5"></i>`;
+    plusornot.classList.toggle("onlyPlus");
+    plusornot.classList.toggle("onlyMinus");
 }
 
 
@@ -39,16 +43,23 @@ document.getElementById("preg19").addEventListener("click", () => { hideOrShow("
 document.getElementById("preg20").addEventListener("click", () => { hideOrShow("cont-preg20", "sig20") });
 const elem = document.getElementById("LigoContainer");
 const elem2 = document.getElementById("ligoPlusContainer");
+const btn1 = document.getElementById("ligo");
+const btn2 = document.getElementById("ligopaypal");
 
+btn1.classList.add("boton-azul");
+btn2.classList.add("boton-blanco");
 document.getElementById("ligo").addEventListener("click", () => {
-
-
+    btn2.classList.add("boton-blanco");
+    btn1.classList.add("boton-azul");
+    btn2.classList.remove("boton-azul");
     elem.classList.remove("displayNone");
     elem2.classList.add("displayNone");
     elem.classList.add("container-preg");
 });
 document.getElementById("ligopaypal").addEventListener("click", () => {
-
+    btn2.classList.add("boton-azul");
+    btn1.classList.add("boton-blanco");
+    btn1.classList.remove("boton-azul");
     elem.classList.remove("container-preg");
     elem2.classList.remove("displayNone");
     elem.classList.add("displayNone");
@@ -58,13 +69,13 @@ document.getElementById("ligopaypal").addEventListener("click", () => {
 
 
 
-document.getElementById("preg1b").addEventListener("click", () => { hideOrShow("cont-preg1") });
+document.getElementById("preg1b").addEventListener("click", () => { hideOrShow("cont-preg1", "sig1b") });
 
-document.getElementById("preg2b").addEventListener("click", () => { hideOrShow("cont-preg2b") });
-document.getElementById("preg3b").addEventListener("click", () => { hideOrShow("cont-preg3b") });
-document.getElementById("preg4b").addEventListener("click", () => { hideOrShow("cont-preg4b") });
-document.getElementById("preg5b").addEventListener("click", () => { hideOrShow("cont-preg5b") });
-document.getElementById("preg6b").addEventListener("click", () => { hideOrShow("cont-preg6b") });
-document.getElementById("preg7b").addEventListener("click", () => { hideOrShow("cont-preg7b") });
-document.getElementById("preg8b").addEventListener("click", () => { hideOrShow("cont-preg8b") });
-document.getElementById("preg9b").addEventListener("click", () => { hideOrShow("cont-preg9b") });
+document.getElementById("preg2b").addEventListener("click", () => { hideOrShow("cont-preg2b", "sig2b") });
+document.getElementById("preg3b").addEventListener("click", () => { hideOrShow("cont-preg3b", "sig3b") });
+document.getElementById("preg4b").addEventListener("click", () => { hideOrShow("cont-preg4b", "sig4b") });
+document.getElementById("preg5b").addEventListener("click", () => { hideOrShow("cont-preg5b", "sig5b") });
+document.getElementById("preg6b").addEventListener("click", () => { hideOrShow("cont-preg6b", "sig6b") });
+document.getElementById("preg7b").addEventListener("click", () => { hideOrShow("cont-preg7b", "sig7b") });
+document.getElementById("preg8b").addEventListener("click", () => { hideOrShow("cont-preg8b", "sig8b") });
+document.getElementById("preg9b").addEventListener("click", () => { hideOrShow("cont-preg9b", "sig9b") });
