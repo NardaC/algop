@@ -1,19 +1,21 @@
 @font-face {
     font-family: 'HelveticaNeue-Bold';
-    src: local('../fonts/HelveticaNeue-Bold.otf'), url('../fonts/HelveticaNeue-Bold.otf') format('woff');
+    src: local('../fonts/HelveticaNeue-Bold.otf'), url('../fonts/HelveticaNeue-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'HelveticaNeue-Thin';
-    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format("opentype");
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'HelveticaNeue-Italic';
-    src: local('../fonts/HelveticaNeue-Italic.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('woff');
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('opentype');
 }
 
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -51,6 +53,7 @@
 }
 
 .space-around {
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
@@ -83,7 +86,12 @@
 
 .body-preg p {
     font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     font-family: 'HelveticaNeue-Thin';
 }
@@ -134,6 +142,8 @@ h2 {
 }
 
 .fila {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -144,6 +154,7 @@ h2 {
 }
 
 .head-preg {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -153,6 +164,12 @@ h2 {
 
 .pt-5-xs {
     padding-top: 1rem !important
+}
+
+a:hover,
+a {
+    color: #0056b300;
+    text-decoration: none;
 }
 
 @media (min-width: 767px) {
@@ -202,8 +219,15 @@ h2 {
         background-repeat: no-repeat
     }
     .each-preg {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 80%;
         padding-top: 1rem;
