@@ -58,27 +58,27 @@
     width: 40%;
 }
 
-.plusOrMin {
-    height: 2rem;
-    width: 2rem;
-    border-radius: 2pc;
-    color: white;
+.onlyMinus {
+    background: #1282BE url(./assets/minus-symbol.png);
+    background-position-x: 0.22rem;
+    background-position-y: 0.2rem;
+    background-repeat: no-repeat;
+    background-size: 0.8rem;
 }
 
 .onlyPlus {
     background: #1282BE url(./assets/plus-black-symbol.png);
-    background-position-x: 0.4rem;
-    background-position-y: 0.4rem;
+    background-position-x: 0.22rem;
+    background-position-y: 0.2rem;
     background-repeat: no-repeat;
-    background-size: 1.2rem;
+    background-size: 0.8rem;
 }
 
-.onlyMinus {
-    background: #1282BE url(./assets/minus-symbol.png);
-    background-position-x: 0.4rem;
-    background-position-y: 0.4rem;
-    background-repeat: no-repeat;
-    background-size: 1.2rem;
+.plusOrMin {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 2pc;
+    color: white;
 }
 
 .body-preg p {
@@ -152,6 +152,26 @@ h2 {
 }
 
 @media (min-width: 767px) {
+    .plusOrMin {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 2pc;
+        color: white;
+    }
+    .onlyPlus {
+        background: #1282BE url(./assets/plus-black-symbol.png);
+        background-position-x: 0.4rem;
+        background-position-y: 0.4rem;
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+    }
+    .onlyMinus {
+        background: #1282BE url(./assets/minus-symbol.png);
+        background-position-x: 0.4rem;
+        background-position-y: 0.4rem;
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+    }
     .container-info {
         padding: 4rem;
         padding-top: 15rem
