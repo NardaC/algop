@@ -8,8 +8,6 @@ algo.forEach(function(userItem) {
     userItem.classList.add("onlyPlus");
 });
 
-
-
 const hideOrShow = (iddepregunt, idplus) => {
     const element = document.getElementById(iddepregunt);
     element.classList.toggle("blockPreg");
@@ -21,7 +19,6 @@ hideOrShow("cont-preg1", "sig1");
 hideOrShow("cont-preg9b", "sig9b");
 
 document.getElementById("preg1").addEventListener("click", () => { hideOrShow("cont-preg1", "sig1") });
-
 document.getElementById("preg2").addEventListener("click", () => { hideOrShow("cont-preg2", "sig2") });
 document.getElementById("preg3").addEventListener("click", () => { hideOrShow("cont-preg3", "sig3") });
 document.getElementById("preg4").addEventListener("click", () => { hideOrShow("cont-preg4", "sig4") });
@@ -40,7 +37,6 @@ document.getElementById("preg16").addEventListener("click", () => { hideOrShow("
 document.getElementById("preg17").addEventListener("click", () => { hideOrShow("cont-preg17", "sig17") });
 document.getElementById("preg18").addEventListener("click", () => { hideOrShow("cont-preg18", "sig18") });
 document.getElementById("preg19").addEventListener("click", () => { hideOrShow("cont-preg19", "sig19") });
-
 document.getElementById("preg20").addEventListener("click", () => { hideOrShow("cont-preg20", "sig20") });
 const elem = document.getElementById("LigoContainer");
 const elem2 = document.getElementById("ligoPlusContainer");
@@ -70,10 +66,7 @@ document.getElementById("ligopaypal").addEventListener("click", () => {
 
 });
 
-
-
 document.getElementById("preg1b").addEventListener("click", () => { hideOrShow("cont-preg1b", "sig1b") });
-
 document.getElementById("preg2b").addEventListener("click", () => { hideOrShow("cont-preg2b", "sig2b") });
 document.getElementById("preg3b").addEventListener("click", () => { hideOrShow("cont-preg3b", "sig3b") });
 document.getElementById("preg4b").addEventListener("click", () => { hideOrShow("cont-preg4b", "sig4b") });
