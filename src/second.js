@@ -17,7 +17,8 @@ const hideOrShow = (iddepregunt, idplus) => {
     plusornot.classList.toggle("onlyPlus");
     plusornot.classList.toggle("onlyMinus");
 }
-
+hideOrShow("cont-preg1", "sig1");
+hideOrShow("cont-preg9b", "sig9b");
 
 document.getElementById("preg1").addEventListener("click", () => { hideOrShow("cont-preg1", "sig1") });
 
