@@ -177,6 +177,11 @@ a {
 }
 
 @media (min-width: 767px) {
+    .home {
+        background-image: url(./assets/cortado.png);
+        background-position-y: 0rem;
+        background-size: cover;
+    }
     .p-foo {
         text-align: left !important;
     }
