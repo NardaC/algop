@@ -12,8 +12,10 @@
     font-family: 'HelveticaNeue-Italic';
     src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('opentype');
 }
-
-
+.linkblack{
+    color: #1282BE;
+    text-decoration: underline
+}
 .flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -228,7 +230,7 @@ a {
     }
     .fondo {
         background-image: url(./assets/fondo3-otro.svg);
-        background-size: 100%;
+        background-size: cover;
         height: auto;
         background-repeat: no-repeat
     }
