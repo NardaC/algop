@@ -12,7 +12,7 @@
     font-family: 'HelveticaNeue-Italic';
     src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('opentype');
 }
-.linkblack{
+.linkblack,.linkblack:hover{
     color: #1282BE;
     text-decoration: underline
 }
