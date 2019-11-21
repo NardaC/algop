@@ -13,6 +13,14 @@
     src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('opentype');
 }
 
+.home {
+    background-image: url(./assets/cortado.png);
+    background-position-y: 0rem;
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+}
+
 .flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -177,11 +185,6 @@ a {
 }
 
 @media (min-width: 767px) {
-    .home {
-        background-image: url(./assets/cortado.png);
-        background-position-y: 0rem;
-        background-size: cover;
-    }
     .p-foo {
         text-align: left !important;
     }
