@@ -357,20 +357,20 @@ header .menu {
 
 footer {
     background-color: #6C00A7;
-    height: 17rem;
+    height: 15rem;
     padding: 1.5rem;
 }
 
 .footer-p {
     font-family: "HelveticaNeue-Italic";
     color: #fff !important;
-    font-size: 1rem
+    font-size: .9rem
 }
 
 .contactanos {
     font-family: "HelveticaNeue-Italic";
     color: #fff !important;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: underline !important;
 }
 
@@ -436,7 +436,8 @@ ul.dashed>li:before {
 }
 
 .pt05m {
-    padding-top: 1.5rem
+    padding-top: 1rem;
+    margin-bottom: .4rem;
 }
 
 .content-icon-foo {
@@ -446,6 +447,7 @@ ul.dashed>li:before {
 
 .btn-foo {
     width: 12.5rem;
+    padding: .5rem;
 }
 
 .se-cambio {
@@ -823,13 +825,13 @@ ul.dashed>li:before {
     }
     .columna-50-xs {
         width: 50%;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
     .w46 {
         width: 46%;
     }
     footer {
-        height: 14rem;
+        height: 11rem;
         padding: 0;
     }
     .footer-p {
