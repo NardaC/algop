@@ -135,29 +135,9 @@ header .menu {
     height: 60rem;
     background-repeat: no-repeat
 }
+
 .fondo1 {
-    background-image: url('assets/contorno_fondo_01.png');
-    background-size: cover;
-    background-position-x: center;
-    height: auto;
-    background-repeat: no-repeat
-}
-.fondo2 {
-    background-image: url('assets/contorno_fondo_02.png');
-    background-size: cover;
-    background-position-x: center;
-    height: auto;
-    background-repeat: no-repeat
-}
-.fondo3 {
-    background-image: url('assets/contorno_fondo_03.png');
-    background-size: cover;
-    background-position-x: center;
-    height: auto;
-    background-repeat: no-repeat
-}
-.fondo4 {
-    background-image: url('assets/contorno_fondo_05.png');
+    background-image: url('assets/fondo-completo-ok.png');
     background-size: cover;
     background-position-x: center;
     height: auto;
@@ -574,7 +554,7 @@ ul.dashed>li:before {
         background-position-y: -10rem;
         height: 55rem;
     }
-    .fondo {
+    .fondo1 {
         background-image: url('./assets/fondo-largo-mobile.png');
         background-size: 100%;
         background-position-y: -3%;
@@ -651,7 +631,7 @@ ul.dashed>li:before {
         margin-top: 3rem
     }
     .mb-9-xs {
-        margin-bottom: 3rem
+        margin-bottom: 0rem
     }
     .carousel-item {
         top: -2rem;
@@ -745,7 +725,6 @@ ul.dashed>li:before {
     }
     .w-50-xs {
         width: 10rem;
-        padding-top: 1rem;
     }
     .container-info-centerY h2 {
         font-size: .9rem;
