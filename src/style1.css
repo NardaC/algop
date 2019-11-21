@@ -57,7 +57,7 @@
     justify-content: space-around;
 }
 
-.boton {
+.botontop {
     width: 40%;
 }
 
@@ -170,6 +170,10 @@ a:hover,
 a {
     color: #0056b300;
     text-decoration: none;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 @media (min-width: 767px) {
