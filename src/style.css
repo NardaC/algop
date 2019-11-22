@@ -526,7 +526,7 @@ ul.dashed>li:before {
         width: 60%
     }
     .p-foo {
-        padding-left: 12rem
+        height: 15rem;
     }
     .w-30rem {
         width: 32rem
@@ -560,9 +560,12 @@ ul.dashed>li:before {
     .w-30rem {
         width: 30rem
     }
+    .img-btn {
+        width: 7rem
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .btn-first {
         width: 10rem;
     }
@@ -598,7 +601,8 @@ ul.dashed>li:before {
         justify-content: center;
     }
     .p-foo {
-        padding-left: 0 !important;
+        padding: 0 !important;
+        height: 11rem;
     }
     .w-4 {
         width: 1.3rem
@@ -643,7 +647,7 @@ ul.dashed>li:before {
     }
     .fondo1 {
         background-image: url('./assets/fondos_mobile_01.png');
-        background-position-y: 12rem;
+        background-position-y: 7rem;
     }
     .top-10rem {
         position: relative;
@@ -724,18 +728,18 @@ ul.dashed>li:before {
         margin-bottom: 0rem
     }
     .carousel-item {
-        top: -2rem;
+        top: 0rem;
     }
     .carousel-item p {
         font-size: 1rem
     }
     .carousel-indicators {
-        top: 16rem
+        top: 19rem
     }
     .carousel-indicators li {
-        background-color: #1995d5 !important;
-        width: 20px !important;
-        height: 20px !important;
+        background-color: #CCCCCC !important;
+        width: 14px !important;
+        height: 14px !important;
         border-radius: 50% !important;
     }
     .mt-5-xs {
@@ -830,10 +834,10 @@ ul.dashed>li:before {
     .w46 {
         width: 46%;
     }
-    footer {
+    /* footer {
         height: 11rem;
         padding: 0;
-    }
+    } */
     .footer-p {
         font-size: 0.5rem
     }
@@ -850,19 +854,28 @@ ul.dashed>li:before {
         width: 80%
     }
     .text-afiliate {
-        margin-top: 5rem !important
+        margin-top: -1rem !important
     }
     .top-10-mobile {
-        margin-top: 9rem !important
+        margin-top: 2rem !important
     }
     .btn-blanco-mobile {
         position: relative;
-        top: 3rem;
+        top: 0rem;
     }
     .mb-4-xs {
         margin-bottom: 1rem !important
     }
     .pt-4-xs {
         padding-top: 1rem !important
+    }
+    .info-carousel{
+        position: relative;
+        top: -8rem;
+    }
+    .w-100-mobile{
+        width: 100%;
+    position: relative;
+    top: -4rem;
     }
 }
