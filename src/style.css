@@ -4,8 +4,13 @@
 }
 
 main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 a:hover,
@@ -15,7 +20,7 @@ a {
 }
 
 html {
-    font-size: .94vw
+    font-size: 0.94vw;
 }
 
 .my-container,
@@ -427,7 +432,9 @@ ul.dashed>li:before {
 }
 
 .space-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .text-right-foo {
@@ -441,8 +448,12 @@ ul.dashed>li:before {
 }
 
 .content-icon-foo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .btn-foo {
@@ -475,9 +486,15 @@ ul.dashed>li:before {
 }
 
 .flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .title-saber {
@@ -590,15 +607,24 @@ ul.dashed>li:before {
         background-image: url("./assets/fondos_mobile_02.png");
     }
     .content-icon-foo {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: unset;
-        flex-direction: column;
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .bajar-unete {
         width: 100%;
     }
     .space-between {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .p-foo {
         padding: 0 !important;

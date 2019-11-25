@@ -182,7 +182,9 @@ a {
 }
 
 .space-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 @media (min-width: 767px) {
