@@ -1,26 +1,21 @@
 @font-face {
     font-family: 'HelveticaNeue-Bold';
-    src: local('../fonts/HelveticaNeue-Bold.otf'), url('../fonts/HelveticaNeue-Bold.otf') format('opentype');
+    src: local('fonts/HelveticaNeue-Bold.otf'), url('fonts/HelveticaNeue-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'HelveticaNeue-Thin';
-    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('opentype');
+    src: local('fonts/HelveticaNeue-Thin.otf'), url('fonts/HelveticaNeue-Thin.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'HelveticaNeue-Italic';
-    src: local('../fonts/HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Italic.otf') format('opentype');
+    src: local('fonts/HelveticaNeue-Thin.otf'), url('fonts/HelveticaNeue-Italic.otf') format('opentype');
 }
-
-.home {
-    background-image: url(./assets/cortado.png);
-    background-position-y: 0rem;
-    height: 15rem;
-    background-size: cover;
-    background-position: center;
+.linkblack,.linkblack:hover{
+    color: #1282BE;
+    text-decoration: underline
 }
-
 .flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,10 +44,11 @@
 }
 
 .home {
-    background-image: url(./assets/cortado.png);
+    background-image: url(./assets/fondo_1.png);
     background-position-y: 0rem;
     height: 15rem;
 }
+
 
 .container-info {
     padding: 1rem;
@@ -102,6 +98,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     font-family: 'HelveticaNeue-Thin';
+    text-align: justify
 }
 
 .body-preg {
@@ -130,7 +127,10 @@ h2 {
 }
 
 .body-preg ul {
-    padding-left: 0%
+    padding-left: 0%;
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 1rem;
+    
 }
 
 .body-preg p,
@@ -159,6 +159,7 @@ h2 {
     font-family: 'HelveticaNeue-Bold';
     font-size: 1rem;
     width: 85%;
+    padding-top: .5rem;
 }
 
 .head-preg {
@@ -181,7 +182,9 @@ a {
 }
 
 .space-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 @media (min-width: 767px) {
@@ -220,13 +223,16 @@ a {
     .head-preg h2 {
         font-size: 1.5rem;
         width: 94%;
+        padding-left: 1.5rem;
+        /* padding-left: 1.5rem;
+        padding-top: .5rem; */
     }
     .container-preg {
         width: 80%;
     }
     .fondo {
         background-image: url(./assets/fondo3-otro.svg);
-        background-size: 100%;
+        background-size: cover;
         height: auto;
         background-repeat: no-repeat
     }
@@ -241,23 +247,33 @@ a {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
     .body-preg p {
         font-size: 1.5rem !important;
-        text-align: left;
+        text-align: justify;
         padding-left: 4rem;
         font-family: 'HelveticaNeue-Thin';
     }
     .displayNone {
         display: none;
     }
+
     .home {
-        height: 22rem;
+    background-image: url(./assets/cortado.png);
+    background-position-y: 0rem;
+    height: auto;
+    background-size: cover;
+    background-position: center;
     }
     .body-preg ul {
-        padding-left: 4rem
+        padding-left: 4rem;
+        font-family: 'HelveticaNeue-Thin';
+        font-size: 1.5rem;
+    }
+    .cont{
+        padding-bottom: 3rem;
     }
 }
