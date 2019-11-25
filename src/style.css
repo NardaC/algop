@@ -12,7 +12,9 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
 }
-
+body {
+    -webkit-text-size-adjust: none;
+}
 a:hover,
 a {
     color: #0056b300;
@@ -602,6 +604,7 @@ ul.dashed>li:before {
     }
     .page-option {
         background-image: url("./assets/fondos_mobile_03.png");
+        
     }
     .se-cambio {
         background-image: url("./assets/fondos_mobile_02.png");
@@ -726,7 +729,11 @@ ul.dashed>li:before {
         left: 6% !important;
     }
     .container-ligo {
-        padding: 3rem !important;
+        /* padding: 3rem !important; */
+        position: relative;
+        top: -20rem;
+        left: 50%;
+        transform: translateX(-60%);
     }
     .home img {
         width: 16rem;
@@ -903,5 +910,17 @@ ul.dashed>li:before {
         width: 100%;
     position: relative;
     top: -4rem;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    table#all_results {
+        width: auto;
+    }
+    td#main_box {
+        width: 320px;
+    }
+    td#side_box {
+        width: 320px;
     }
 }
