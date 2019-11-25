@@ -8,12 +8,29 @@ algo.forEach(function(userItem) {
     userItem.classList.add("onlyPlus");
 });
 
+
+const bp = document.querySelectorAll(".body-preg");
+
+
 const hideOrShow = (iddepregunt, idplus) => {
+    algo.forEach(function(userItem) {
+        userItem.classList.add("onlyMinus");
+        userItem.classList.remove("onlyPlus");
+    });
+    console.log(bp);
+    bp.forEach(function(userItem) {
+        userItem.classList.remove("blockPreg");
+        userItem.classList.add("body-preg");
+
+    });
+
+
     const element = document.getElementById(iddepregunt);
     element.classList.toggle("blockPreg");
     const plusornot = document.getElementById(idplus);
     plusornot.classList.toggle("onlyPlus");
     plusornot.classList.toggle("onlyMinus");
+
 }
 hideOrShow("cont-preg1", "sig1");
 hideOrShow("cont-preg9b", "sig9b");
