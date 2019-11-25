@@ -9,13 +9,28 @@ algo.forEach(function(userItem) {
 });
 
 
+const bp = document.querySelectorAll(".body-preg");
+
 
 const hideOrShow = (iddepregunt, idplus) => {
+    algo.forEach(function(userItem) {
+        userItem.classList.add("onlyMinus");
+        userItem.classList.remove("onlyPlus");
+    });
+    console.log(bp);
+    bp.forEach(function(userItem) {
+        userItem.classList.remove("blockPreg");
+        userItem.classList.add("body-preg");
+
+    });
+
+
     const element = document.getElementById(iddepregunt);
     element.classList.toggle("blockPreg");
     const plusornot = document.getElementById(idplus);
     plusornot.classList.toggle("onlyPlus");
     plusornot.classList.toggle("onlyMinus");
+
 }
 hideOrShow("cont-preg1", "sig1");
 hideOrShow("cont-preg9b", "sig9b");
@@ -40,7 +55,6 @@ document.getElementById("preg16").addEventListener("click", () => { hideOrShow("
 document.getElementById("preg17").addEventListener("click", () => { hideOrShow("cont-preg17", "sig17") });
 document.getElementById("preg18").addEventListener("click", () => { hideOrShow("cont-preg18", "sig18") });
 document.getElementById("preg19").addEventListener("click", () => { hideOrShow("cont-preg19", "sig19") });
-
 document.getElementById("preg20").addEventListener("click", () => { hideOrShow("cont-preg20", "sig20") });
 const elem = document.getElementById("LigoContainer");
 const elem2 = document.getElementById("ligoPlusContainer");
