@@ -364,7 +364,7 @@ header .menu {
 
 footer {
     background-color: #6C00A7;
-    height: 15rem;
+    height: 15.5rem;
     padding: 1.5rem;
 }
 
@@ -545,7 +545,7 @@ ul.dashed>li:before {
         width: 60%
     }
     .p-foo {
-        height: 15rem;
+        height: 15.5rem;
     }
     .w-30rem {
         width: 32rem
