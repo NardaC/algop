@@ -149,11 +149,11 @@ header .menu {
 }
 
 .fondo1 {
-    background-image: url('assets/fondos_01D.png');
+    background-image: url(assets/fondos_01D.png);
     background-size: cover;
-    background-position-x: center;
-    height: auto;
-    background-repeat: no-repeat
+    /* background-position-x: center; */
+    height: 368rem;
+    background-repeat: no-repeat;
 }
 
 .home h2 {
@@ -227,7 +227,7 @@ header .menu {
     padding: 5rem;
     padding-left: 10rem;
     text-align: right;
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 
 .fondo h1 {
@@ -235,7 +235,34 @@ header .menu {
     font-size: 3rem;
     color: #1984C1
 }
-
+.view1{
+    position: relative;
+    top: 14rem;
+}
+.celulare{
+    position: relative;
+    top: 18rem;
+}
+.que-mas-saber{
+    position: relative;
+    top: 50rem;
+}
+.celular-1{
+    position: relative;
+    top: 15rem;
+}
+.celular-2{
+    position: relative;
+    top: 20rem;
+}
+.celular-3{
+    position: relative;
+    top: 38rem;
+}
+.celular-4{
+    position: relative;
+    top: 45rem;
+}
 .info-ligo {
     font-family: 'HelveticaNeue-Thin';
     font-size: 1.5rem;
@@ -327,7 +354,6 @@ header .menu {
     display: -ms-flexbox;
     display: flex;
     width: 30rem;
-    ;
     padding: 4rem;
     background-color: #F2F2F2;
     top: 15rem;
@@ -391,12 +417,12 @@ footer {
 }
 
 .bajar-unete {
-    padding-top: 12rem;
+    padding-top: 7rem;
     width: 92%;
 }
 
 .img-red {
-    width: 60%
+    width: 33%
 }
 
 .w-4 {
@@ -477,6 +503,7 @@ ul.dashed>li:before {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 28rem;
 }
 
 .container-info-centerY {
@@ -533,6 +560,9 @@ ul.dashed>li:before {
 }
 
 @media (max-width: 1024px) {
+    .que-mas-saber{
+        top: 55rem;
+    }
     .w-3 {
         margin: 0;
     }
@@ -542,7 +572,7 @@ ul.dashed>li:before {
         justify-content: flex-end;
     }
     .img-red {
-        width: 60%
+        width: 33%
     }
     .p-foo {
         height: 15.5rem;
@@ -574,7 +604,7 @@ ul.dashed>li:before {
         justify-content: flex-end;
     }
     .img-red {
-        width: 60%
+        width: 33%
     }
     .w-30rem {
         width: 30rem
@@ -604,6 +634,7 @@ ul.dashed>li:before {
     }
     .page-option {
         background-image: url("./assets/fondos_mobile_03.png");
+        height: 12.95rem;
         
     }
     .se-cambio {
@@ -677,6 +708,7 @@ ul.dashed>li:before {
     .fondo1 {
         background-image: url('./assets/fondos_mobile_01.png');
         background-position-y: 7rem;
+        height: 265rem;
     }
     .top-10rem {
         position: relative;
@@ -719,14 +751,19 @@ ul.dashed>li:before {
     .container-info2 {
         padding: 1.5rem;
         position: relative;
-        top: -52rem;
+        top: -43rem;
     }
     .container-info2 p {
         font-size: 1rem;
     }
     .container-cel img {
-        width: 90% !important;
-        left: 6% !important;
+        width: 80% !important;
+        left: 10% !important;
+        top: 6rem !important;
+    }
+    .boton-descarga{
+        position: relative;
+        top: 9rem;
     }
     .container-ligo {
         /* padding: 3rem !important; */
@@ -755,7 +792,7 @@ ul.dashed>li:before {
         color: white
     }
     .mt-9-xs {
-        margin-top: 3rem
+        margin-top: 5rem
     }
     .mb-9-xs {
         margin-bottom: 0rem
@@ -791,13 +828,13 @@ ul.dashed>li:before {
     .cuadro-left {
         font-size: 1rem;
         padding: 1rem;
-        top: -41rem;
+        top: -38rem;
         height: 9rem;
     }
     .cuadro-rigth {
         font-size: 1rem;
         padding: 1rem;
-        top: -14rem;
+        top: -19rem;
         height: 5rem;
     }
     .cel-ajust {
@@ -810,15 +847,15 @@ ul.dashed>li:before {
         top: -1.5rem;
     }
     .img-up-2 {
-        margin-top: -15rem
+        margin-top: -18rem
     }
     .cuadro-left-3 {
         height: 12rem;
-        margin-top: 7rem
+        margin-top: -10rem
     }
     .cel-ajust-3 {
         position: relative;
-        top: 9rem;
+        top: -8rem;
     }
     .cuadro-rigth-4 {
         height: 8rem;
@@ -851,7 +888,7 @@ ul.dashed>li:before {
         padding: .1rem;
     }
     .w-50-xs {
-        width: 10rem;
+        width: 7.8rem;
     }
     .container-info-centerY h2 {
         font-size: .9rem;
@@ -887,10 +924,10 @@ ul.dashed>li:before {
         width: 80%
     }
     .text-afiliate {
-        margin-top: -1rem !important
+        margin-top: -2rem !important
     }
     .top-10-mobile {
-        margin-top: 2rem !important
+        margin-top: -2rem !important
     }
     .btn-blanco-mobile {
         position: relative;
@@ -910,6 +947,9 @@ ul.dashed>li:before {
         width: 100%;
     position: relative;
     top: -4rem;
+    }
+    .que-mas-saber{
+        top: 45rem
     }
 }
 
