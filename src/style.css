@@ -147,6 +147,11 @@ header .menu {
     height: 58rem;
     background-repeat: no-repeat;
 }
+.home img{
+    -webkit-transform: rotate(9deg);
+        -ms-transform: rotate(9deg);
+        transform: rotate(-10deg);
+}
 
 .fondo1 {
     background-image: url(assets/fondos_01D.png);
@@ -774,9 +779,6 @@ ul.dashed>li:before {
     }
     .home img {
         width: 16rem;
-        -webkit-transform: rotate(9deg);
-        -ms-transform: rotate(9deg);
-        transform: rotate(9deg);
     }
     .boton-blanco,
     .boton-azul {
