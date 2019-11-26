@@ -377,6 +377,7 @@ header .menu {
 
 .img-xl {
     width: 30%;
+    height: 100%;
 }
 
 .boton {
@@ -425,7 +426,8 @@ footer {
 }
 
 .img-red {
-    width: 33%
+    width: 33%;
+    height: 100%;
 }
 
 .w-4 {
