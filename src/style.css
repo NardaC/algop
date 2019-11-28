@@ -304,12 +304,13 @@ header .menu {
     display: -ms-flexbox;
     display: flex;
     width: 30rem;
-    padding: 4rem;
+    padding: 3.5rem;
     background-color: #F2F2F2;
     top: 15rem;
     height: 15rem;
     border-radius: 1rem;
     margin: 0 5%;
+    text-align: justify;
 }
 
 .cuadro-left-3 {
@@ -557,7 +558,7 @@ ul.dashed>li:before {
         width: 32rem
     }
     .img-red {
-        width: 80%;
+        width: 33%;
     }
     .se-cambio {
         position: relative;
